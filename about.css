@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 150px;
+    display: flex;
+    float: right;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-bottom: 10x;
+    box-shadow: 0 0 10px #999999 ;
+  
+} 
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+
+}
+
+.about_section{
+    background: url(img/AboutUs.jpeg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-left: 40px;
+    margin-right: 40px;
+
+ }
+.inner_contain{
+    width: 60%;
+    height: 30%;
+    float:right;
+    background-color: #fdfdfd;
+    padding: 40px;
+     
+}
+.heading{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 20px;
+    text-align: justify ;
+    margin-bottom: 40px;  
+} 
+.social{
+    transform: translate(-2%,-20%);
+}
+.social .fa{
+    color: #fff;
+}
+.social i{
+    padding-top: 50px;
+    font-size: 35px;
+    padding-left: 15px;
+    color: #000;
+    border-radius: 50%;
+    
+}
+.social a{
+    /* position: relative;
+    display: block; */
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: -6%;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.5);
+}
+
+.social i:hover{
+   transform: translate(0, -10px);
+   color: #f44336;
+}
+
+.text p{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+
+.text span{
+  
+    font-family: 'Lora', serif;
+    font-size: 22px;
+}
